@@ -8,8 +8,7 @@ const rawLyrics = `
 [00:15.261]심장이 뛰는데 
 [00:16.941]That L-O-V-E 말로만 들었지 
 [00:21.149]사랑은 Fictional 
-[00:23.129]이럴 줄은 몰랐어 
-[00:24.929]한 손으론 Tapping on it twice `;
+[00:23.129]이럴 줄은 몰랐어 `;
 
 function parseLRC(raw) {
   const lines = raw.split(/\r?\n/).filter(Boolean);
@@ -111,6 +110,7 @@ function enterFullscreen() {
 
 overlay.addEventListener("click", () => {
   audio.muted = false;  // 恢复声音
+  audio.loop = true;    // 设置循环播放
   audio.play().then(() => {
     overlay.classList.add("hidden");
     setTimeout(enterFullscreen, 100);
