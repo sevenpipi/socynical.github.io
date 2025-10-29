@@ -9,56 +9,7 @@ const rawLyrics = `
 [00:16.941]That L-O-V-E 말로만 들었지 
 [00:21.149]사랑은 Fictional 
 [00:23.129]이럴 줄은 몰랐어 
-[00:24.929]한 손으론 Tapping on it twice 
-[00:26.886]표정은 왜 Try to hide 
-[00:28.768]좋아요 그 세글자의 말 
-[00:30.425]말로 하면 So uncool 
-[00:32.506]서둘러 다 놓치기 전에 
-[00:34.445]때론 과감한 게 나아 
-[00:36.328]의심하지 마 
-[00:36.970]You and I, right this moment 
-[00:39.090]I want your lo-lo-lo-loving 
-[00:41.521]아닌 척 좀 그만하자 
-[00:43.807]Wa-wa-wa-want it 서로가 원하잖아 
-[00:47.147]That ba-ba-ba-ba-ba-ba-ba-ba-dum 
-[00:51.228]Ba-ba-ba-ba-ba-ba-ba-ba-dum 
-[00:54.185]심장은 Kno-no-no-nocking 
-[00:56.664]네게도 들리잖아 
-[00:58.507]너 Lo-lo-lo-loving 
-[01:00.403]그만 두려워하자 
-[01:02.300]Like ba-ba-ba-ba-ba-ba-ba-ba-dum 
-[01:06.307]Ba-ba-ba-ba-ba-ba-ba-ba-dum 
-[01:10.100]Replay old days 그땐 나도 So afraid 
-[01:13.868]다칠까 봐 닫힌 내 심장은 So blue 
-[01:17.661]너도 Time to make a choice 
-[01:19.543]결정 앞에 Don't avoid 
-[01:21.440]딴청 피우지 말고 
-[01:22.860]What you waiting for? 
-[01:25.202]Cool한 사이를 좋아하지만 
-[01:27.349]너랑은 아니란 말야 
-[01:29.187]좋아요 그 세글자의 말 
-[01:30.906]말로 하면 So uncool 
-[01:33.008]서둘러 다 놓치기 전에 
-[01:34.926]때론 과감한 게 나아 
-[01:36.766]의심하지 마 You and I 
-[01:38.446]Right this moment 
-[01:39.606]I want your lo-lo-lo-loving 
-[01:41.984]아닌 척 좀 그만하자 
-[01:44.313]Wa-wa-wa-want it 서로가 원하잖아 
-[01:47.624]That ba-ba-ba-ba-ba-ba-ba-ba-dum 
-[01:51.680]Ba-ba-ba-ba-ba-ba-ba-ba-dum 
-[01:54.687]심장은 Kno-no-no-nocking 
-[01:57.105]네게도 들리잖아 너 
-[01:59.441]Lo-lo-lo-loving 
-[02:00.880]그만 두려워하자 
-[02:02.783]Like ba-ba-ba-ba-ba-ba-ba-ba-dum 
-[02:06.824]Ba-ba-ba-ba-ba-ba-ba-ba-dum 
-[02:10.923]So cynical 
-[02:12.505]이젠 그만할래 두려워 마 
-[02:16.243]If your heart is beating 
-[02:18.522]So cynical 망설이면 Too late 
-[02:22.148]너 너와 Glowing 
-[02:23.822]Ba-ba-ba-ba-ba-ba-ba-ba-dum`;
+[00:24.929]한 손으론 Tapping on it twice `;
 
 function parseLRC(raw) {
   const lines = raw.split(/\r?\n/).filter(Boolean);
